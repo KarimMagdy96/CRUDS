@@ -1,15 +1,7 @@
 # CRUDS
 
 ## Description
-A responsive mobile-first vanilla javascript e-commerce website which; 
-
-* adds and removes items to the cart
-* increase and decrease the number of items in the cart
-* store the items in the cart in local storage
-* automatically calculates the total price of items in the cart based on how many items are currently in the cart.
-
-*** new update:
-project now is linked to Contentful and i can update prodaccts throw updating json file app resives from contentful api
+Smple app that can creat read update delete & search prodacts
 
 <!-- About the Project -->
 ## :star2: About the Project
