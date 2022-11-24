@@ -19,7 +19,7 @@ project now is linked to Contentful and i can update prodaccts throw updating js
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://i.imgur.com/GK0u94S.png" alt="screenshot" />
+  <img src="https://i.imgur.com/10hpHMg.png" alt="screenshot" />
 </div>
 
 ### Dependencies:
