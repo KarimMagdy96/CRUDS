@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container ">
+        <h1 class=" w-100 text-center fw-bold text-white">CRUDS</h1>
+        <p class="w-100 text-center fw-bold text-white">CREAT READ UPDATE DELETE SEARCH</p>
+        <form id="form" action="" class=" text-center" >
+            <input type="text" id="tittle" class=" form-control mb-3 " placeholder="Tittle">
+            <div id="titleReg" class="alert p-2 text-start d-none  alert-danger" role="alert">
+  Prodact name must be valid name 
+</div>
+            <span class=" d-block  d-md-flex">
+                <input type="number" id="price" class="form-control w-100 me-1 mb-3 mb-md-0 total " placeholder="Price">
+                <input type="number " id="tax" class="form-control me-1 total mb-3 mb-md-0" placeholder="Tax">
+                <input type="number" id="ads" class="form-control me-1 total mb-3 mb-md-0" placeholder="Ads">
+                <input type="number" id="discount" class="form-control me-1 total mb-3 mb-md-0" placeholder="Discount">
+                <div class="form-control bg-primary mb-3 mb-md-0" >total
+
+
+                    <small  id="total" class=" bg-primary w-75 p-1 rounded"> 
+                0
+                    </small>
+                </div>
+            </span>
+            <input type="number" id="count" class="form-control mt-3 " placeholder="Count ">
+                                <div id="countReg" class="alert p-2 text-start d-none   alert-danger" role="alert">
+  count must be under 999  
+</div>
+            <input type="text" id="category" class="form-control mt-3 mb-2 " placeholder="Category">
+                      <div id="catReg" class="alert p-2 text-start d-none   alert-danger" role="alert">
+  category name must be valid name 
+</div>
+            <button id="creat" class=" w-100 btn btn-success   p-2 mt-3 text-white d-block " >Creat</button>
+                                 <div id="creatvaldit" class="alert p-2 text-start d-none mt-2  alert-danger" role="alert">
+  please enter valid data
+</div>
+            <button id="update" class="form-control  bg-warning p-2 mt-3 text-white d-none" >Update</button>
+            <input id="search" type="search" class="form-control mt-3" placeholder="Search">
+            <div class=" d-flex">
+                <button id="searchTittle" class=" btn btn-outline-danger d-block me-3   mt-3 w-100 p-2 border border-3 border-danger text-white">Search by Tittle</button>
+                <button id="SearchCategory" class=" btn btn-outline-danger d-block w-100 mt-3 p-2 border border-3 border-danger text-white">Search by Category</button>
+
+            </div>
+        </form >
+            <thead>
+                <tr class=" text-white">
+                    <th>ID</th>
+                    <th>TITTLE</th>
+                    <th>PRICE</th>
+                    <th>TAXES</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                    <th>UPDATE</th>
+                    <th>DELETE</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+             
+            </tbody>
+        </table> -->
+        <div class="table-responsive-md">
+<table class="table text-center mt-3 ">
+            <thead>
+                <tr class=" text-white">
+                    <th>ID</th>
+                    <th>TITTLE</th>
+                    <th>PRICE</th>
+                    <th>TAXES</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                    <th>UPDATE</th>
+                    <th>DELETE</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+             
+            </tbody>
+        </table>
+</div>
+    </div>                  
+    <script src="./js/main.js"></script>
+</body>
+</html>
