@@ -1,7 +1,8 @@
 # CRUDS
 
 ## Description
-Smple app that can creat read update delete & search prodacts
+
+With input validation, this simple app can create, read, update, delete, search, and save products at local storage. 
 
 <!-- About the Project -->
 ## :star2: About the Project
